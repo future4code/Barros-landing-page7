@@ -1,18 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300;400;700&family=Mate&family=Zen+Loop&display=swap');
-
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    font-family: 'Inria Sans';
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-nav {
-    display: flex;
-    height: 120px;
-    box-shadow: 3px 3px 3px darkgrey;
+/* CABEÇALHO */
+header{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    box-shadow: 5px 0px 4px darkgray;
+
+}
+
+.icone{
+    width: 100px;
+    padding: 20px 100px;
+}
+
+.botoes{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+header button{
+    color:#ff5c5c;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 4px;
+    border-color: #ff5c5c;
+    border-style: solid;
+    font-size: bold;   
+}
+
+h4{
+    color: #494c4e;
 }
 
 /* PRIMEIRA SEÇÃO */
