@@ -7,27 +7,30 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+a:hover, button:hover {
+    cursor: pointer;
+}
+
 /* CABEÇALHO */
-header{
+header {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     box-shadow: 5px 0px 4px darkgray;
-
 }
 
-.icone{
+.icone {
     width: 100px;
     padding: 20px 100px;
 }
 
-.botoes{
+.botoes {
     display: grid;
     align-items: center;
     grid-template-columns: repeat(3, 1fr);
 }
 
-header button{
+header button {
     color:#ff5c5c;
     padding: 10px 20px;
     background-color: white;
@@ -37,7 +40,7 @@ header button{
     font-size: bold;   
 }
 
-h4{
+h4 {
     color: #494c4e;
 }
 
@@ -117,10 +120,6 @@ form > button {
     border: 1px #ff5c5c solid;
     border-radius: 4px;
     box-shadow: 6px 6px 24px 1px rgba(0, 0, 0, 0.2);
-}
-
-form > button:hover {
-    cursor: pointer;
 }
 
 form > button:active {
