@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>LP</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
 </head>
 <body>
-    
+
     <header>
 
         <div>
@@ -23,5 +23,36 @@
 
     </header>
 
-</body>
+    <main>
+
+        <div class="primeira-secao">
+        
+            <video src="/vid/pexels-roman-odintsov-6577543.mp4" autoplay loop></video>
+
+            <div class="conteudo-primeira-secao">
+
+                <span class="titulo-lema">NOSSO CARRO,<br> SUA CHANCE.</span>
+
+                <form class="reserva" action="#">
+                    <p class="titulo-formulario">Quero um carro</p><br>
+                    <input type="number" name="CEP" id="CEP" placeholder="CEP">
+                    <br>
+                    <input type="email" nome="email" id="email" placeholder="E-mail">
+                    <br>
+                    <div class="texto-datas-formulario">
+                        <p>Retirada</p> <p>Devolução</p>
+                        <input type="date" nome="data-retirada" id="data-retirada">
+                        <input type="date" nome="data-devolucao" id="data-devolucao">
+                    </div>
+                    <input type="checkbox">  Aceito os termos de uso
+                    <br>
+                    <button type="submit">Reservar</button>
+                </form>
+
+            </div>
+            
+        </div>
+        
+    </main>
+   </body>
 </html>

@@ -1,8 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -38,4 +39,91 @@ header button{
 
 h4{
     color: #494c4e;
+}
+
+/* PRIMEIRA SEÇÃO */
+
+.primeira-secao {
+    width: 100%;
+    height: 100vh;
+}
+
+.primeira-secao > video {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.conteudo-primeira-secao {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    height: 100vh;
+    justify-items: center;
+    padding: 10px;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.titulo-lema {
+    color: white;
+    font-size: 80px;
+    font-weight: 700;
+    margin-top: 100px;
+    text-shadow: 2px 2px 2px black;
+}
+
+.reserva {
+    margin-top: 85px;
+}
+
+.titulo-formulario {
+    color: white;
+    font-size: 34px;
+    font-weight: 700;
+    text-shadow: 2px 2px 2px black;
+}
+
+#CEP, #email {
+    width: 220px;
+    padding: 8px;
+    border: 1px darkgray solid;
+    border-radius: 4px;
+    margin: 3px 0;
+}
+
+.texto-datas-formulario {
+    width: 245px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 20px 40px;
+}
+
+#data-retirada, #data-devolucao {
+    width: 95px;
+    padding: 8px;
+    border: 1px darkgray solid;
+    border-radius: 4px;
+    margin: 3px 0;
+    align-self: center;
+}
+
+form > button {
+    margin: 3px 0;
+    color: white;
+    width: 236px;
+    padding: 8px;
+    background-color: #ff5c5c;
+    border: 1px #ff5c5c solid;
+    border-radius: 4px;
+    box-shadow: 6px 6px 24px 1px rgba(0, 0, 0, 0.2);
+}
+
+form > button:hover {
+    cursor: pointer;
+}
+
+form > button:active {
+    transform: scale(0.98);
+    box-shadow: 2px 2px 20px 1px rgba(0, 0, 0, 0.2);
 }
