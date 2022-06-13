@@ -127,35 +127,82 @@ form > button:active {
     box-shadow: 2px 2px 20px 1px rgba(0, 0, 0, 0.2);
 }
 
-.slider{
+
+
+section {
+    height: 100vh;
+    width: 100vw;
+}
+
+.carrossel {
+    height: 520px;
+    width: 935px;
+    border-radius: 20px;
     overflow: hidden;
-    box-shadow: 2px 2px 4px white;
-    
+    position: absolute;
+    top: 190%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-.slider > .slider-content{
+
+.navegaçao {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
     display: flex;
-    flex-wrap: nowrap;
+}
+
+.bar {
+    width: 70px;
+    height: 17px;
+    border: 2px solid white;
+    margin: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.bar:hover {
+    background-color: white;
+}
+
+.slides input {
+    display: none;
+}
+
+.slides {
+    display: flex;
+    width: 500%;
+    height: 100%;
+}
+
+.slide {
+    width: 20%;
+    transition: .6s;
+}
+
+.slide img {
     width: 100%;
-    transition: all 500ms ease;
-    
+    height: 100%;
 }
 
-.slider > .slider-content > .slider-item {
-    flex: 0 0 auto;
-    width: 100%;
+#slide1:checked ~ .s1 {
+    margin-left: 0;
 }
 
-.slider > input:nth-child(1):checked ~ .slider-content{
-    transform: translateX(0%);
+#slide2:checked ~ .s1 {
+    margin-left: -20%;
 }
 
-.slider > input:nth-child(2):checked ~ .slider-content{
-    transform: translateX(-100%);
-}
-.slider > input:nth-child(3):checked ~ .slider-content{
-    transform: translateX(-200%);
+#slide3:checked ~ .s1 {
+    margin-left: -40%;
 }
 
-.slider > input:nth-child(4):checked ~ .slider-content{
-    transform: translateX(-300%);
+#slide4:checked ~ .s1 {
+    margin-left: -60%;
+}
+
+#slide5:checked ~ .s1 {
+    margin-left: -80%;
 }
