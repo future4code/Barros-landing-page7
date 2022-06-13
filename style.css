@@ -13,6 +13,7 @@ header{
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     box-shadow: 5px 0px 4px darkgray;
+    width: 100%;
 
 }
 
@@ -126,4 +127,38 @@ form > button:hover {
 form > button:active {
     transform: scale(0.98);
     box-shadow: 2px 2px 20px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* RODAPÉ*/
+footer{
+    background-color: #ff5c5c;
+    
+}
+
+.rodape{
+    margin-left: 200px;
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    color: white;
+    line-height: 50px;
+
+    padding-bottom: 100px;
+}
+ol{
+    list-style: none;
+}
+
+ol p{
+    font-size: smaller;
+}
+ol img{
+    padding-right: 20px;
+}
+
+.marca-rodape{
+    width: 10%;
+    margin-left: 190px;
+
+    margin-top: 70px;
+    margin-bottom: 50px;
 }
