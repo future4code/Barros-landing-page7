@@ -33,11 +33,11 @@ header {
 }
 
 header button {
-    color:#ff5c5c;
+    color:#FF1155;
     padding: 10px 20px;
     background-color: white;
     border-radius: 4px;
-    border-color: #ff5c5c;
+    border-color: #FF1155;
     border-style: solid;
     font-size: bold;   
 }
@@ -117,8 +117,8 @@ form > button {
     color: white;
     width: 236px;
     padding: 8px;
-    background-color: #ff5c5c;
-    border: 1px #ff5c5c solid;
+    background-color: #FF1155;
+    border: 1px #FF1155 solid;
     border-radius: 4px;
     box-shadow: 6px 6px 24px 1px rgba(0, 0, 0, 0.2);
 }
@@ -128,8 +128,75 @@ form > button:active {
     box-shadow: 2px 2px 20px 1px rgba(0, 0, 0, 0.2);
 }
 
+/* PLANOS */
 
-/* SEGUNDA SEÇÃO */
+.secaoPlanos {
+    width: 100%;
+    margin: 12px 0;
+    height: max-content;
+    margin-bottom: 3%;
+    border-top: 1px dotted #FF1155;
+}
+
+.secaoPlanos > h1 {
+    color: #FF1155;
+    padding: 20px 0;
+    text-align: center;
+    text-shadow: 1px 1px 1px #494c4e;
+    text-decoration: underline #FF1155;
+    text-transform: uppercase;
+}
+
+.todosPlanos {
+    width: 100%;
+    display: grid;
+    padding: 12px;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    height: fit-content;
+}
+
+.plano {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 24px 24px 48px 24px;
+    align-items: center;
+    box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+.plano > h2 {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #FF1155;
+}
+
+.textoPlano {
+    display: flex;
+    gap: 8px;
+}
+
+.simboloOk {
+    color: #FF1155;
+}
+
+.plano > button {
+    margin: 3px 0;
+    color: white;
+    width: 236px;
+    padding: 8px;
+    background-color: #FF1155;
+    border: 1px #FF1155 solid;
+    border-radius: 4px;
+    box-shadow: 6px 6px 24px 1px rgba(0, 0, 0, 0.2);
+}
+
+.plano > button:active {
+    transform: scale(0.98);
+    box-shadow: 2px 2px 20px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* SLIDER */
 
 section {
     height: 100vh;
@@ -141,10 +208,8 @@ section {
     width: 935px;
     border-radius: 20px;
     overflow: hidden;
-    position: absolute;
-    top: 190%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(0, 0);
+    margin: 1% auto;
 }
 
 .navegaçao {
@@ -210,9 +275,7 @@ section {
 }
 
 
-
-
-/* TERCEIRA SEÇÃO */
+/* QUEM SOMOS E FAQ */
 
 .quem-somos-faq {
     display: grid;
@@ -222,7 +285,7 @@ section {
     gap: 16px;
     text-align: justify;
     margin-top: 1%;
-    border-top: 1px #ff5c5c dotted;
+    border-top: 1px #FF1155 dotted;
 }
 
 .titulo-quem-somos-faq {
@@ -230,7 +293,7 @@ section {
     gap: 12px;
     align-items: center;
     justify-content: center;
-    color: #ff5c5c;
+    color: #FF1155;
     text-decoration: underline;
 }
 
@@ -245,16 +308,16 @@ section {
 
 .faq {
     padding: 24px;
-    border-left: 1px #ff5c5c dotted;
+    border-left: 1px #FF1155 dotted;
 }
 
 .faq > ol > h3 {
-    color: #ff5c5c;
+    color: #FF1155;
 }
 
 /* RODAPÉ*/
 footer{
-    background-color: #ff5c5c;
+    background-color: #FF1155;
     
 }
 
