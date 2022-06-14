@@ -128,20 +128,18 @@ form > button:active {
     box-shadow: 2px 2px 20px 1px rgba(0, 0, 0, 0.2);
 }
 
+
+/* SEGUNDA SEÇÃO */
+
 section {
     height: 100vh;
     width: 100vw;
 }
 
-/* SEGUNDA SEÇÃO */
-
 .carrossel {
     height: 520px;
     width: 935px;
     border-radius: 20px;
-}
-
-.slider {
     overflow: hidden;
     position: absolute;
     top: 190%;
@@ -151,6 +149,7 @@ section {
 
 .navegaçao {
     position: absolute;
+    bottom: 20px;
     left: 50%;
     transform: translate(-50%);
     display: flex;
@@ -210,9 +209,7 @@ section {
     margin-left: -80%;
 }
 
-.slider > input:nth-child(4):checked ~ .slider-content{
-    transform: translateX(-300%);
-}
+
 
 
 /* TERCEIRA SEÇÃO */
