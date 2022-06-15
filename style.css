@@ -206,15 +206,11 @@ form > button:active {
 
 /* SLIDER */
 
-section {
-    height: 100vh;
-    width: 100vw;
-}
 
 .carrossel {
-    height: 520px;
-    width: 935px;
-    border-radius: 20px;
+    width: 100vw;
+
+    
     overflow: hidden;
     transform: translate(0, 0);
     margin: 1% auto;
@@ -248,12 +244,12 @@ section {
 
 .slides {
     display: flex;
-    width: 500%;
+    width: 600%;
     height: 100%;
 }
 
 .slide {
-    width: 20%;
+    width: 16.66%;
     transition: .6s;
 }
 
@@ -267,20 +263,24 @@ section {
 }
 
 #slide2:checked ~ .s1 {
-    margin-left: -20%;
+    margin-left: -16.66%;
 }
 
 #slide3:checked ~ .s1 {
-    margin-left: -40%;
+    margin-left: -33.33%;
 }
 
 #slide4:checked ~ .s1 {
-    margin-left: -60%;
+    margin-left: -50%;
 }
 
 #slide5:checked ~ .s1 {
-    margin-left: -80%;
+    margin-left: -66.66%;
 }
+#slide6:checked ~ .s1 {
+    margin-left: -83.33%;
+}
+
 
 
 /* QUEM SOMOS E FAQ */
