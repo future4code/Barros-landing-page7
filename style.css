@@ -14,6 +14,9 @@ a:hover, button:hover {
 
 /* CABEÇALHO */
 header {
+
+    position: fixed;
+    background-color: white;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
@@ -29,7 +32,11 @@ header {
 .botoes {
     display: grid;
     align-items: center;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.botoes a{
+    text-decoration: none;
 }
 
 header button {
@@ -130,7 +137,7 @@ form > button:active {
 
 /* PLANOS */
 
-.secaoPlanos {
+#secaoPlanos {
     width: 100%;
     margin: 12px 0;
     height: max-content;
@@ -138,7 +145,7 @@ form > button:active {
     border-top: 1px dotted #FF1155;
 }
 
-.secaoPlanos > h1 {
+#secaoPlanos > h1 {
     color: #FF1155;
     padding: 20px 0;
     text-align: center;
