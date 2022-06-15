@@ -22,6 +22,7 @@ header {
     align-items: center;
     box-shadow: 5px 0px 4px darkgray;
     width: 100%;
+    z-index: 2;
 }
 
 .icone {
@@ -68,6 +69,7 @@ h4 {
 
 .conteudo-primeira-secao {
     position: relative;
+    top: 15%;
     height: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -136,7 +138,7 @@ form > button:active {
 
 /* PLANOS */
 
-#secaoPlanos {
+#secao-planos {
     width: 100%;
     margin: 12px 0;
     height: max-content;
@@ -144,7 +146,7 @@ form > button:active {
     border-top: 1px dotted #FF1155;
 }
 
-#secaoPlanos > h1 {
+#secao-planos > h1 {
     color: #FF1155;
     padding: 20px 0;
     text-align: center;
@@ -153,7 +155,7 @@ form > button:active {
     text-transform: uppercase;
 }
 
-.todosPlanos {
+.todos-planos {
     width: 100%;
     display: grid;
     padding: 12px;
@@ -177,12 +179,12 @@ form > button:active {
     text-decoration-color: #FF1155;
 }
 
-.textoPlano {
+.texto-plano {
     display: flex;
     gap: 8px;
 }
 
-.simboloOk {
+.simbolo-ok {
     color: #FF1155;
 }
 
