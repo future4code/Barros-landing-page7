@@ -18,6 +18,7 @@ a:hover, button:hover {
 }
 
 /* CABEÇALHO */
+
 header {
     position: fixed;
     background-color: white;
@@ -61,7 +62,6 @@ header button {
     border-style: solid;
     font-size: bold;   
 }
-
 
 /* PRIMEIRA SEÇÃO */
 
@@ -160,9 +160,7 @@ form > button:active {
     color: #FF1155;
     padding: 20px 0;
     text-align: center;
-    text-shadow: 1px 1px 1px #494c4e;
-    text-decoration: underline #FF1155;
-    text-transform: uppercase;
+    font-size: 36px;
 }
 
 .todos-planos {
@@ -185,8 +183,6 @@ form > button:active {
 
 .plano > h2 {
     text-align: center;
-    text-decoration: underline;
-    text-decoration-color: #FF1155;
 }
 
 .texto-plano {
@@ -216,11 +212,8 @@ form > button:active {
 
 /* SLIDER */
 
-
 .carrossel {
     width: 100vw;
-
-    
     overflow: hidden;
     transform: translate(0, 0);
     margin: 1% auto;
@@ -291,8 +284,6 @@ form > button:active {
     margin-left: -83.33%;
 }
 
-
-
 /* QUEM SOMOS E FAQ */
 
 .quem-somos-faq {
@@ -315,14 +306,15 @@ form > button:active {
     width: 32px;
     
 }
-.titulo-quem-somos-faq h3{
+.titulo-quem-somos-faq h3 {
     font-size: 36px;
 }
 
 .quem-somos {
     padding: 24px;
 }
-.quem-somos p{
+
+.quem-somos p {
     font-size: 14px;
     line-height: 24px;
 }
@@ -352,6 +344,7 @@ form > button:active {
 }
 
 /* RODAPÉ*/
+
 footer{
     background-color: #FF1155;
     
@@ -380,7 +373,10 @@ ol img{
 .marca-rodape{
     width: 10%;
     margin-left: 190px;
-
     margin-top: 100px;
     margin-bottom: 50px;
+}
+
+.rodape a:hover {
+    text-decoration: underline;
 }
