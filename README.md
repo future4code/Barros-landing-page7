@@ -5,13 +5,13 @@ Projeto desenvolvido por Everton Garcia de Oliveira, Jéssica Oliveira de Lima e
 # Conteúdo
 
 <ul>
-  <li> <a href="https://github.com/future4code/Barros-landing-page7/edit/master/README.md#sobre"> Sobre </a> </li>
-  <li> <a href="https://github.com/future4code/Barros-landing-page7/edit/master/README.md#se%C3%A7%C3%B5es"> Seções </a> </li>
-  <li> <a href="https://github.com/future4code/Barros-landing-page7/edit/master/README.md#link-do-surge"> Link do Surge </a> </li>
-  <li> <a href="https://github.com/future4code/Barros-landing-page7/edit/master/README.md#tecnologias-utilizadas"> Tecnologias Utilizadas </a> </li>
-  <li> <a href="https://github.com/future4code/Barros-landing-page7/edit/master/README.md#imagens-do-site"> Imagens do Site </a> </li>
-  <li> <a href="https://github.com/future4code/Barros-landing-page7/edit/master/README.md#mais-informa%C3%A7%C3%B5es"> Mais informações </a> </li>
-  <li> <a href="https://github.com/future4code/Barros-landing-page7/edit/master/README.md#imagens-vers%C3%A3o-mobile"> Imagens Versão Mobile </a> </li>
+  <li> <a href="https://github.com/future4code/Barros-landing-page7#sobre"> Sobre </a> </li>
+  <li> <a href="https://github.com/future4code/Barros-landing-page7#se%C3%A7%C3%B5es"> Seções </a> </li>
+  <li> <a href="https://github.com/future4code/Barros-landing-page7#link-do-surge"> Link do Surge </a> </li>
+  <li> <a href="https://github.com/future4code/Barros-landing-page7#tecnologias-utilizadas"> Tecnologias Utilizadas </a> </li>
+  <li> <a href="https://github.com/future4code/Barros-landing-page7#imagens-do-site"> Imagens do Site </a> </li>
+  <li> <a href="https://github.com/future4code/Barros-landing-page7#mais-informa%C3%A7%C3%B5es"> Mais informações </a> </li>
+  <li> <a href="https://github.com/future4code/Barros-landing-page7#imagens-vers%C3%A3o-mobile"> Imagens Versão Mobile </a> </li>
 </ul>
 
 # Sobre
