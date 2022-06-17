@@ -153,7 +153,6 @@ form > button:active {
     margin: 12px 0;
     height: max-content;
     margin-bottom: 3%;
-    border-top: 1px dotted #FF1155;
 }
 
 #secao-planos > h1 {
@@ -164,9 +163,9 @@ form > button:active {
 }
 
 .todos-planos {
-    width: 100%;
+    width: 88%;
     display: grid;
-    padding: 12px;
+    padding-left: 90px;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     height: fit-content;
@@ -176,19 +175,22 @@ form > button:active {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    padding: 24px 24px 48px 24px;
+    padding: 90px 36px;
     align-items: center;
-    box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.2);
+
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
 }
 
 .plano > h2 {
-    text-align: center;
+    color: #FF1155;
+    padding-bottom: 50px;
 }
 
 .texto-plano {
     display: flex;
     gap: 8px;
 }
+
 
 .simbolo-ok {
     color: #FF1155;
@@ -197,12 +199,12 @@ form > button:active {
 .plano > button {
     margin: 3px 0;
     color: white;
-    width: 236px;
+    width: 98%;
     padding: 8px;
     background-color: #FF1155;
     border: 1px #FF1155 solid;
     border-radius: 4px;
-    box-shadow: 6px 6px 24px 1px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
 }
 
 .plano > button:active {
