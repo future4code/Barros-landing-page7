@@ -193,6 +193,21 @@ form > button:active {
     color: #FF1155;
 }
 
+.preco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reais {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.pagamento {
+    color: #FF1155;
+}
+
 .plano > button {
     margin: 3px 0;
     color: white;
