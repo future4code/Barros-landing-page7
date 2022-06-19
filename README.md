@@ -47,6 +47,7 @@ Neste projeto, desenvolvemos a Landing Page da empresa fictícia 4Cars (logo e i
 ![image](https://user-images.githubusercontent.com/102297204/174350182-58b31c72-db91-4164-9922-310a6148c462.png)
 ![image](https://user-images.githubusercontent.com/102297204/174350375-1f774a9b-55d4-4018-acef-a9f4b6e2d00b.png)
 ![image](https://user-images.githubusercontent.com/102297204/174350445-26136bbb-7a02-4bc1-9dd6-3daabfff7b59.png)
+![image](https://user-images.githubusercontent.com/102320940/174500213-812ee227-b14c-469d-b1ca-af743685add6.png)
 
 # Mais informações
 
