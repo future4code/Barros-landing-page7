@@ -55,12 +55,9 @@ O site consta também com uma versão mobile, adaptado e alterado para melhor se
 
 # Imagens Versão Mobile
 
-![image00002](https://user-images.githubusercontent.com/102320940/174501059-2f92ed71-79b6-4ffa-83eb-24451ce116f1.jpeg)![image00001](https://user-images.githubusercontent.com/102320940/174501071-79254b16-4d67-475f-9aa4-9a96a6be71fa.jpeg)
-
-![image00003](https://user-images.githubusercontent.com/102320940/174501077-701c39b2-f0c7-4e2e-a0f8-a2ff4e12d1ec.jpeg)
-![image00004](https://user-images.githubusercontent.com/102320940/174501093-f3ead477-d04f-4cc8-86ad-be38fb18a4c0.jpeg)
-![image00008](https://user-images.githubusercontent.com/102320940/174501105-e746eb81-cd37-4c23-ae8e-d4c7f5e2e44d.jpeg)
-![image00005](https://user-images.githubusercontent.com/102320940/174501110-75029046-9220-44f1-ba68-4bf5182496e9.jpeg)
-![image00006](https://user-images.githubusercontent.com/102320940/174501113-d5754afe-0fee-401d-bdc5-556580980118.jpeg)
-![image00007](https://user-images.githubusercontent.com/102320940/174501119-8dd610e2-2589-40f1-a23b-8bf26a56e659.jpeg)
+<img src="https://user-images.githubusercontent.com/102320940/174501059-2f92ed71-79b6-4ffa-83eb-24451ce116f1.jpeg" width="250px">
+<img src="https://user-images.githubusercontent.com/102320940/174501077-701c39b2-f0c7-4e2e-a0f8-a2ff4e12d1ec.jpeg" width="250px">
+<img src="https://user-images.githubusercontent.com/102320940/174501093-f3ead477-d04f-4cc8-86ad-be38fb18a4c0.jpeg" width="250px">
+<img src="https://user-images.githubusercontent.com/102320940/174501110-75029046-9220-44f1-ba68-4bf5182496e9.jpeg" width="250px">
+<img src="https://user-images.githubusercontent.com/102320940/174501119-8dd610e2-2589-40f1-a23b-8bf26a56e659.jpeg" width="250px">
 
