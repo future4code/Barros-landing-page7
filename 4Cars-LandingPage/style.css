@@ -1,0 +1,516 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+	font-family: 'Montserrat-regular'; 
+}
+@font-face {
+    src: url(Montserrat-Regular.ttf);
+    font-family: 'Montserrat-Regular';    
+    font-weight: normal;
+} 
+
+a:hover, button:hover {
+    cursor: pointer;
+}
+
+/* CABEÇALHO */
+
+header {
+    position: fixed;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    box-shadow: 5px 0px 4px darkgray;
+    width: 100%;
+    z-index: 2;
+}
+
+.icone {
+    width: 100px;
+    padding: 5% 10%;
+}
+
+.botoes {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+.botoes a{
+    text-decoration: none;
+    font-size: 1em;
+    color: #494c4e;
+
+}
+
+.botoes a:hover{
+    color: #FF1155;
+}
+
+header button {
+    color:#FF1155;
+    padding: 5% 10%;
+    background-color: white;
+    border-radius: 4px;
+    border-color: #FF1155;
+    border-style: solid;
+    font-size: bold;   
+}
+
+/* PRIMEIRA SEÇÃO */
+
+.primeira-secao {
+    width: 100%;
+    height: 100vh;
+}
+
+.primeira-secao > video {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    overflow: cover;
+}
+
+.conteudo-primeira-secao {
+    position: relative;
+    top: 15%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.titulo-lema {
+    color: white;
+    font-size: 5em;
+    font-weight: 700;
+    margin-top: 10%;
+    text-shadow: 2px 2px 2px black;
+}
+
+.reserva {
+    margin-top: 9%;
+}
+
+.titulo-formulario {
+    color: white;
+    font-size: 2em;
+    font-weight: 700;
+    text-shadow: 2px 2px 2px black;
+}
+
+#CEP, #email {
+    width: 85%;
+    padding: 3%;
+    border: 1px darkgray solid;
+    border-radius: 4px;
+    margin: 3px 0;
+}
+
+.texto-datas-formulario {
+    width: 95%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 2fr;
+}
+
+#data-retirada, #data-devolucao {
+    width: 80%;
+    padding: 8px;
+    border: 1px darkgray solid;
+    border-radius: 4px;
+    margin: 3px 0;
+    align-self: center;
+}
+
+form > button {
+    margin: 3px 0;
+    color: white;
+    width: 92%;
+    padding: 8px;
+    background-color: #FF1155;
+    border: 1px #FF1155 solid;
+    border-radius: 4px;
+    box-shadow: 6px 6px 24px 1px rgba(0, 0, 0, 0.2);
+}
+
+form > button:active {
+    transform: scale(0.98);
+    box-shadow: 2px 2px 20px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* PLANOS */
+
+#secao-planos {
+    width: 100%;
+    margin: 1% 0;
+    height: max-content;
+    margin-bottom: 3%;
+}
+
+#secao-planos > h1 {
+    color: #FF1155;
+    padding: 2% 0;
+    text-align: center;
+    font-size: 2em;
+}
+
+.todos-planos {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: fit-content;
+}
+
+.plano {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 5% 3%;
+    align-items: center;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+.plano > h2 {
+    color: #FF1155;
+    padding-bottom: 50px;
+}
+
+.texto-plano {
+    display: flex;
+    gap: 8px;
+}
+
+
+.simbolo-ok {
+    color: #FF1155;
+}
+
+.preco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reais {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.pagamento {
+    color: #FF1155;
+}
+
+.plano > button {
+    margin: 3px 0;
+    color: white;
+    width: 98%;
+    padding: 8px;
+    background-color: #FF1155;
+    border: 1px #FF1155 solid;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.plano > button:active {
+    transform: scale(0.98);
+    box-shadow: 2px 2px 20px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* SLIDER */
+
+.carrossel {
+    width: 100vw;
+    overflow: hidden;
+    transform: translate(0, 0);
+    margin: 1% auto;
+}
+
+.navegaçao {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
+
+.bar {
+    width: 50px;
+    height: 14px;
+    border: 2px solid white;
+    margin: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.bar:hover {
+    background-color: white;
+}
+
+.slides input {
+    display: none;
+}
+
+.slides {
+    display: flex;
+    width: 600%;
+    height: 100%;
+}
+
+.slide {
+    width: 16.66%;
+    transition: .6s;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+#slide1:checked ~ .s1 {
+    margin-left: 0;
+}
+
+#slide2:checked ~ .s1 {
+    margin-left: -16.66%;
+}
+
+#slide3:checked ~ .s1 {
+    margin-left: -33.33%;
+}
+
+#slide4:checked ~ .s1 {
+    margin-left: -50%;
+}
+
+#slide5:checked ~ .s1 {
+    margin-left: -66.66%;
+}
+#slide6:checked ~ .s1 {
+    margin-left: -83.33%;
+}
+
+/* QUEM SOMOS E FAQ */
+
+.quem-somos-faq {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+    padding: 20px;
+    gap: 16px;
+    text-align: justify;
+}
+
+.titulo-quem-somos-faq {
+    display: flex;
+    gap: 12px;
+    align-items:baseline;
+    color: #FF1155;
+}
+
+.titulo-quem-somos-faq > img {
+    width: 32px;
+    
+}
+.titulo-quem-somos-faq h3 {
+    font-size: 36px;
+}
+
+.quem-somos {
+    padding: 24px;
+}
+
+.quem-somos p {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.faq {
+    padding: 24px;
+}
+
+.faq > ol > h3 {
+    color: #FF1155;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.faq p{
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.faq a{
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.faq a:hover{
+    color: #FF1155;
+}
+
+/* RODAPÉ*/
+
+footer{
+    background-color: #FF1155;
+    
+}
+
+.rodape{
+    margin-left: 200px;
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    color: white;
+    line-height: 50px;
+    padding-bottom: 100px;
+}
+
+ol{
+    list-style: none;
+}
+
+ol p{
+    font-size: smaller;
+}
+ol img{
+    padding-right: 20px;
+}
+
+.marca-rodape{
+    width: 10%;
+    margin-left: 190px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.rodape a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (min-device-width : 320px) and (max-device-width : 480px)  {
+
+    header {
+        max-width: 100vw;
+        display: flex;
+        justify-content: space-around;
+        position: absolute;
+    }
+
+    .botoes {
+        display: flex;
+        flex-direction: column;
+        gap: 5%;
+        position: relative;
+    }
+
+    video {
+        display: none;
+    }
+
+    .primeira-secao {
+        max-width: 100vw;
+        height: fit-content;
+    }
+
+    .icone {
+        padding: 20px;
+    }
+
+    .conteudo-primeira-secao {
+        display: flex;
+        flex-direction: column;
+        background-color: #FF1155;
+        padding: 10%;
+    }
+
+    .titulo-lema {
+        text-align: center;
+        font-size: 1.5em;
+        margin-top: 35%;
+    }
+
+    .reserva {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1em;    }
+
+    .titulo-formulario {
+        font-size: 1em;
+    }
+
+    form > button {
+        color: #FF1155;
+        background-color: white;
+        border: 1px white solid;
+    }
+
+    #secao-planos {
+        margin-top: 3%;
+        display: flex;
+        flex-direction: column;
+        max-width: 100vw;
+        padding: 0 auto;
+        align-content: center;
+    }
+
+    .todos-planos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 auto;
+        max-width: 100vw;
+        gap: 15px;
+    }
+
+    .plano > h2 {
+        padding: 10px 0;
+    }
+    .plano {
+        padding: auto;
+        max-width: 100vw;
+        justify-content: center;
+    }
+
+    .navegaçao {
+        position: absolute;
+        top: 1%;
+        left: 50%;
+        transform: translate(-50%);
+        display: flex;
+
+    }
+
+    .bar {
+        width: 30px;
+        height: 12px;
+    }
+
+    .quem-somos-faq {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rodape {
+        display: flex;
+        flex-direction: column;
+        margin-left: 5%;
+        padding: 20% auto;
+    }
+
+    .list-rodape {
+        margin-top: 5%;
+    }
+
+    .marca-rodape {
+        display: none;
+    }
+}
